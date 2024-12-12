@@ -17,7 +17,7 @@
   },
   "require": {
     "contao/core-bundle": "~4.13 || ~5.0",
-    "mobiledetect/mobiledetectlib": "^4.8"
+    "mobiledetect/mobiledetectlib": "~4.8 || ~3.7"
   },
   "extra": {
     "contao-manager-plugin": "Alnv\\ContaoMobileDetectBundle\\ContaoManager\\Plugin"
