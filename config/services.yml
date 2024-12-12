@@ -1,0 +1,7 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+  Alnv\ContaoMobileDetectBundle\EventListener\IsVisibleElementListener:
+    tags:
+      - { name: contao.hook, hook: isVisibleElement }

@@ -1,0 +1,24 @@
+{
+  "name": "alnv/contao-mobile-dectect",
+  "type": "contao-bundle",
+  "description": "",
+  "authors": [
+    {
+      "name": "Alexander Naumov",
+      "homepage": "https://www.alexandernaumov.de",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alnv\\ContaoMobileDetectBundle\\": "src/"
+    }
+  },
+  "require": {
+    "contao/core-bundle": "~4.13 || ~5.0",
+    "mobiledetect/mobiledetectlib": "^4.8"
+  },
+  "extra": {
+    "contao-manager-plugin": "Alnv\\ContaoMobileDetectBundle\\ContaoManager\\Plugin"
+  }
+}
