@@ -1,7 +1,8 @@
 {
   "name": "alnv/contao-mobile-dectect",
   "type": "contao-bundle",
-  "description": "",
+  "license": "MIT",
+  "description": "Mit der Erweiterung Mobile Detect für Contao erhältst du die Möglichkeit, Inhalte gezielt für unterschiedliche Gerätetypen zu steuern.",
   "authors": [
     {
       "name": "Alexander Naumov",
